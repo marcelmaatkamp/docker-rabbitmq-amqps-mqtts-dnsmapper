@@ -2,12 +2,11 @@
 
 # Introduction
 
-RabbitMQ with AMQPS and MQTTS with automatic renewal of certificates from LetsEncrypt in Docker. Edit
-Add topics
+RabbitMQ with AMQPS and MQTTS with automatic renewal of certificates from LetsEncrypt in Docker. This repository uses a dns-mapper to facilitate automatic dns hostname creation for each docker-container specified in the docker-compose.  
 
 # Start
 
-Start AMQPS on port 5671, MQTTS on port 8883 and the management interface of RabbitMQ on port 443 
+Start AMQPS on port 5671, MQTTS on port 8883 and the management interface of RabbitMQ on port 443:
 
 ```
 DNS_MAPPER=pseudo.host IP_ADDRESS=12.34.56.78 docker-compose up
