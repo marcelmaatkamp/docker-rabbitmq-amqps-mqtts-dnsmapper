@@ -2,7 +2,7 @@
 
 # Introduction
 
-RabbitMQ with AMQPS and MQTTS with automatic renewal of certificates from LetsEncrypt in Docker. This repository uses a dns-mapper to facilitate automatic wildcard dns hostname creation for each docker-container specified in the docker-compose.  
+RabbitMQ with AMQPS and MQTTS with automatic renewal of certificates from LetsEncrypt in Docker. This repository can use a dns-mapper to facilitate automatic wildcard dns hostname creation like xip.io or nip.io for each docker-container specified in the docker-compose.  
 
 # Start
 
